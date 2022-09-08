@@ -1,4 +1,4 @@
-# This is Coding Test P.151
+# This is Coding Test P.149
 # 음료수 얼려 먹기
 
 # N, M 입력
@@ -34,7 +34,7 @@ result = 0
 for i in range(n):
     for j in range(m):
         # 현재위치에서 DFS
-        if dfs(i,j) == True:
+        if dfs(i, j):
             result += 1
 
 
